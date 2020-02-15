@@ -29,7 +29,7 @@ Bilgisayar kapatıcıyı programlamak için 1 sayısını yazıp enter tuşuna b
 Bilgisayar kapatıcıyı durdurmak için 2 sayısını yazıp enter tuşuna basın. 
 Lütfen yapmak istediğiniz işlemi seçiniz :
 
-Bilgisayar kapatmayı programlamak için 1 yazıp enter tuşuna basabilirsiniz, daha sonra size saat sorar, burada ise 00:00 - 24:00 saat dilimi geçerlidir, örneğin saat öğleden sonra 3'de kapansın isterseniz 15:00 yazmanız gerekir, yazdıktan sonra enter tuşuna basın şöyle bir mesaj alırsınız :  Kapatma görevi başlatıldı, iptal etmek için programı yeniden çalıştırıp 2 seçeneğini seçebilirsiniz.
+Bilgisayar kapatmayı programlamak için 1 yazıp enter tuşuna basabilirsiniz, daha sonra size saat sorar, burada ise 24:00 saat zaman dilimi geçerlidir, örneğin saat öğleden sonra 3'de kapansın isterseniz 15:00 yazmanız gerekir, yazdıktan sonra enter tuşuna basın şöyle bir mesaj alırsınız :  Kapatma görevi başlatıldı, iptal etmek için programı yeniden çalıştırıp 2 seçeneğini seçebilirsiniz.
 
 Eğer zamanlamadan vazgeçtiyseniz, zamanlamayı ve oto kapatıcı programı durdurabilirsiniz, bunun için yine aşağıdaki kodla programı çalıştırın.
 
