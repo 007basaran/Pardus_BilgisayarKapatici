@@ -6,22 +6,21 @@ Otomatik bilgisayar kapatıcı, zamanlayıcı, istediğiniz saati belirleyin, sa
 Uçbirim sistemini açıp, kodları sırasıyla uygulayın : 
 
 cd /home/$USER
-
 sudo apt-get update -y
-
 sudo apt-get install git -y
-
 git clone https://github.com/007basaran/Pardus_BilgisayarKapatici.git
-
 cd Pardus_BilgisayarKapatici
-
 chmod +x otopardus.sh
+
+Ya da tek seferlik bir kodla tüm işlemleri tamamlamak için bu kodu uygulayın : 
+
+cd /home/$USER && sudo rm -rf Pardus_BilgisayarKapatici && sudo apt-get update -y && sudo apt-get install git -y && git clone https://github.com/007basaran/Pardus_BilgisayarKapatici.git && cd /home/$USER/Pardus_BilgisayarKapatici && sudo chmod +x otopardus.sh
 
 # Nasıl Kullanılır ? 
 
 Kullanmak istediğinizde Uçbirim sisteminizi açıp, programı bu kodla çalıştırabilirsiniz : 
 
-cd /home/$USER/Pardus_BilgisayarKapatici && ./otopardus.sh
+sudo /home/$USER/Pardus_BilgisayarKapatici/otopardus.sh
 
 Bu kodu yazdığınızda program çalışır ve karşınıza şu mesajlar gelir : 
 
@@ -33,7 +32,7 @@ Bilgisayar kapatmayı programlamak için 1 yazıp enter tuşuna basabilirsiniz, 
 
 Eğer zamanlamadan vazgeçtiyseniz, zamanlamayı ve oto kapatıcı programı durdurabilirsiniz, bunun için yine aşağıdaki kodla programı çalıştırın.
 
-cd /home/$USER/Pardus_BilgisayarKapatici && ./otopardus.sh
+sudo /home/$USER/Pardus_BilgisayarKapatici/otopardus.sh
 
 Bu sefer 2 yazıp enter tuşuna basın, zamanlayıcı otomatik olarak duracak ve size şöyle bir uyarı gelecektir : Tüm kapatma görevleri devre dışı bırakıldı.
 
